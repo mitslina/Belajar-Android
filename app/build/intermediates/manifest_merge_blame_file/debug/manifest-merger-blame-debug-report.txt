@@ -1,0 +1,315 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.appstory"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:7:5-60
+14-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:7:19-57
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:8:5-65
+16-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:8:22-62
+17    <uses-permission
+17-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:9:5-11:38
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:10:9-65
+19        android:maxSdkVersion="28" />
+19-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:11:9-35
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:12:5-67
+20-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:12:22-64
+21
+22    <!-- Include required permissions for Google Maps API to run. -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+28
+29    <queries>
+29-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+30
+31        <!-- Needs to be explicitly declared on Android R+ -->
+32        <package android:name="com.google.android.apps.maps" />
+32-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+32-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+33    </queries>
+34
+35    <permission
+35-->[androidx.core:core:1.13.1] C:\Users\ACER\.gradle\caches\8.9\transforms\6424c3403f19929b38e37a94957d3b12\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+36        android:name="com.appstory.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.13.1] C:\Users\ACER\.gradle\caches\8.9\transforms\6424c3403f19929b38e37a94957d3b12\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.13.1] C:\Users\ACER\.gradle\caches\8.9\transforms\6424c3403f19929b38e37a94957d3b12\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.appstory.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.13.1] C:\Users\ACER\.gradle\caches\8.9\transforms\6424c3403f19929b38e37a94957d3b12\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.13.1] C:\Users\ACER\.gradle\caches\8.9\transforms\6424c3403f19929b38e37a94957d3b12\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:14:5-92:19
+42        android:allowBackup="true"
+42-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:15:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.13.1] C:\Users\ACER\.gradle\caches\8.9\transforms\6424c3403f19929b38e37a94957d3b12\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="true"
+46        android:icon="@mipmap/ic_launcher"
+46-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:16:9-43
+47        android:label="@string/app_name"
+47-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:17:9-41
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:18:9-54
+49        android:supportsRtl="true"
+49-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:19:9-35
+50        android:testOnly="true"
+51        android:theme="@style/Theme.StoryApp" >
+51-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:20:9-46
+52        <meta-data
+52-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:22:9-24:71
+53            android:name="com.google.android.geo.API_KEY"
+53-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:23:13-58
+54            android:value="AIzaSyB0dqg7GPm-kDDbD2sp7rGB_VLY8yhPpl4" />
+54-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:24:13-68
+55
+56        <activity
+56-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:26:9-29:59
+57            android:name="com.appstory.view.maps.MapsActivity"
+57-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:27:13-51
+58            android:exported="false"
+58-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:28:13-37
+59            android:label="@string/title_activity_maps" />
+59-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:29:13-56
+60
+61        <receiver
+61-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:31:9-41:20
+62            android:name="com.appstory.widget.DisplayStoryWidget"
+62-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:32:13-54
+63            android:exported="false" >
+63-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:33:13-37
+64            <intent-filter>
+64-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:34:13-36:29
+65                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+65-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:35:17-84
+65-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:35:25-81
+66            </intent-filter>
+67
+68            <meta-data
+68-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:38:13-40:69
+69                android:name="android.appwidget.provider"
+69-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:39:17-58
+70                android:resource="@xml/display_story_widget_info" />
+70-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:40:17-66
+71        </receiver>
+72
+73        <activity
+73-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:43:9-45:40
+74            android:name="com.appstory.view.addstory.AddStoryActivity"
+74-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:44:13-59
+75            android:exported="false" />
+75-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:45:13-37
+76        <activity
+76-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:46:9-48:40
+77            android:name="com.appstory.view.detailstory.DetailStoryActivity"
+77-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:47:13-65
+78            android:exported="false" />
+78-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:48:13-37
+79        <activity
+79-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:49:9-56:20
+80            android:name="com.appstory.view.liststory.ListStoryActivity"
+80-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:50:13-61
+81            android:exported="true" >
+81-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:51:13-36
+82            <intent-filter>
+82-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:52:13-55:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:53:17-69
+83-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:53:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:54:17-77
+85-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:54:27-74
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:57:9-59:40
+89            android:name="com.appstory.view.welcome.WelcomeActivity"
+89-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:58:13-57
+90            android:exported="false" />
+90-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:59:13-37
+91        <activity
+91-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:60:9-62:40
+92            android:name="com.appstory.view.signup.SignupActivity"
+92-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:61:13-55
+93            android:exported="false" />
+93-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:62:13-37
+94        <activity
+94-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:63:9-65:40
+95            android:name="com.appstory.view.login.LoginActivity"
+95-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:64:13-53
+96            android:exported="false" />
+96-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:65:13-37
+97        <activity
+97-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:66:9-68:40
+98            android:name="com.appstory.view.logout.LogoutActivity"
+98-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:67:13-55
+99            android:exported="false" />
+99-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:68:13-37
+100
+101        <provider
+102            android:name="androidx.core.content.FileProvider"
+102-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:71:13-62
+103            android:authorities="com.appstory.fileprovider"
+103-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:72:13-64
+104            android:exported="false"
+104-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:73:13-37
+105            android:grantUriPermissions="true" >
+105-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:74:13-47
+106            <meta-data
+106-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:75:13-77:54
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:76:17-67
+108                android:resource="@xml/file_paths" />
+108-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:77:17-51
+109        </provider> <!-- suppress AndroidDomInspection -->
+110        <service
+110-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:79:9-91:19
+111            android:name="com.google.android.gms.metadata.ModuleDependencies"
+111-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:80:13-78
+112            android:enabled="false"
+112-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:81:13-36
+113            android:exported="false" >
+113-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:82:13-37
+114            <intent-filter>
+114-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:84:13-86:29
+115                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+115-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:85:17-94
+115-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:85:25-91
+116            </intent-filter>
+117
+118            <meta-data
+118-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:88:13-90:36
+119                android:name="photopicker_activity:0:required"
+119-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:89:17-63
+120                android:value="" />
+120-->C:\Users\ACER\AndroidStudioProjects\intermediet\StoryAppSubmissionAkhir\StoryAppSubmissionAkhir\app\src\main\AndroidManifest.xml:90:17-33
+121        </service>
+122        <!-- Needs to be explicitly declared on P+ -->
+123        <uses-library
+123-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+124            android:name="org.apache.http.legacy"
+124-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+125            android:required="false" />
+125-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\cb80cfaeaed25644ccda98d2efa9742d\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+126
+127        <activity
+127-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ACER\.gradle\caches\8.9\transforms\eaf35afbffa71869fdc4637efa6271e6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ACER\.gradle\caches\8.9\transforms\eaf35afbffa71869fdc4637efa6271e6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ACER\.gradle\caches\8.9\transforms\eaf35afbffa71869fdc4637efa6271e6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ACER\.gradle\caches\8.9\transforms\eaf35afbffa71869fdc4637efa6271e6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ACER\.gradle\caches\8.9\transforms\d6526c702b721c94bf11947dc37dceac\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ACER\.gradle\caches\8.9\transforms\d6526c702b721c94bf11947dc37dceac\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ACER\.gradle\caches\8.9\transforms\d6526c702b721c94bf11947dc37dceac\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+135
+136        <provider
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\e669e11ffaf8b64dd6eb4585fd149808\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+137            android:name="androidx.startup.InitializationProvider"
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\e669e11ffaf8b64dd6eb4585fd149808\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+138            android:authorities="com.appstory.androidx-startup"
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\e669e11ffaf8b64dd6eb4585fd149808\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+139            android:exported="false" >
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\e669e11ffaf8b64dd6eb4585fd149808\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+140            <meta-data
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\e669e11ffaf8b64dd6eb4585fd149808\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\e669e11ffaf8b64dd6eb4585fd149808\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+142                android:value="androidx.startup" />
+142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ACER\.gradle\caches\8.9\transforms\e669e11ffaf8b64dd6eb4585fd149808\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER\.gradle\caches\8.9\transforms\13bff6677d57aba0488964294ae91e4f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER\.gradle\caches\8.9\transforms\13bff6677d57aba0488964294ae91e4f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER\.gradle\caches\8.9\transforms\13bff6677d57aba0488964294ae91e4f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+146            <meta-data
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+147                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+148                android:value="androidx.startup" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+149        </provider>
+150
+151        <service
+151-->[androidx.room:room-runtime:2.5.2] C:\Users\ACER\.gradle\caches\8.9\transforms\81f1f0be4666087fea9ee4f9c07ad03d\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+152            android:name="androidx.room.MultiInstanceInvalidationService"
+152-->[androidx.room:room-runtime:2.5.2] C:\Users\ACER\.gradle\caches\8.9\transforms\81f1f0be4666087fea9ee4f9c07ad03d\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+153            android:directBootAware="true"
+153-->[androidx.room:room-runtime:2.5.2] C:\Users\ACER\.gradle\caches\8.9\transforms\81f1f0be4666087fea9ee4f9c07ad03d\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+154            android:exported="false" />
+154-->[androidx.room:room-runtime:2.5.2] C:\Users\ACER\.gradle\caches\8.9\transforms\81f1f0be4666087fea9ee4f9c07ad03d\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+155
+156        <receiver
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+157            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+158            android:directBootAware="false"
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+159            android:enabled="true"
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+160            android:exported="true"
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+161            android:permission="android.permission.DUMP" >
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+162            <intent-filter>
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+163                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+164            </intent-filter>
+165            <intent-filter>
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+166                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+167            </intent-filter>
+168            <intent-filter>
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+169                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+170            </intent-filter>
+171            <intent-filter>
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+172                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ACER\.gradle\caches\8.9\transforms\9bc30e721b955a7831d0d58925559bd6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+173            </intent-filter>
+174        </receiver>
+175    </application>
+176
+177</manifest>

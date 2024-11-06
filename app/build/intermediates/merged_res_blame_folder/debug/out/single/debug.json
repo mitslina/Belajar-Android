@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.appstory.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_background_corner.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/background_corner.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_activity_add_story.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/activity_add_story.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_activity_detail_story.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/activity_detail_story.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_activity_logout.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/activity_logout.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_image_dicoding.webp.flat",
+        "source": "com.appstory.app-main-52:/drawable/image_dicoding.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_ic_add_24.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/ic_add_24.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/menu_list_story_menu.xml.flat",
+        "source": "com.appstory.app-main-52:/menu/list_story_menu.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_baseline_map_24.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/baseline_map_24.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_activity_maps.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_ic_place_holder.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/ic_place_holder.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.appstory.app-pngs-46:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_item_loading.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/item_loading.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_baseline_logout_24.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/baseline_logout_24.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_image_welcome.webp.flat",
+        "source": "com.appstory.app-main-52:/drawable/image_welcome.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/raw_maps_style.json.flat",
+        "source": "com.appstory.app-main-52:/raw/maps_style.json"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_display_story_widget.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/display_story_widget.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_ic_baseline_lock_24.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/menu_maps_menu.xml.flat",
+        "source": "com.appstory.app-main-52:/menu/maps_menu.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.appstory.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_ic_image_not_supported_24.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/ic_image_not_supported_24.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.appstory.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_activity_welcome.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable-nodpi_example_appwidget_preview.png.flat",
+        "source": "com.appstory.app-main-52:/drawable-nodpi/example_appwidget_preview.png"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/xml_display_story_widget_info.xml.flat",
+        "source": "com.appstory.app-main-52:/xml/display_story_widget_info.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_image_signup.webp.flat",
+        "source": "com.appstory.app-main-52:/drawable/image_signup.webp"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_activity_list_story.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/activity_list_story.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_activity_signup.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_activity_login.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/xml_file_paths.xml.flat",
+        "source": "com.appstory.app-main-52:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable-v21_app_widget_background.xml.flat",
+        "source": "com.appstory.app-main-52:/drawable-v21/app_widget_background.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/layout_item_story.xml.flat",
+        "source": "com.appstory.app-main-52:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.appstory.app-merged_res-50:/drawable_image_login.webp.flat",
+        "source": "com.appstory.app-main-52:/drawable/image_login.webp"
+    }
+]

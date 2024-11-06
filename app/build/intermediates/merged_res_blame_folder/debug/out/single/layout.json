@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/activity_detail_story.xml",
+        "source": "com.appstory.app-main-52:/layout/activity_detail_story.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/item_loading.xml",
+        "source": "com.appstory.app-main-52:/layout/item_loading.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/item_story.xml",
+        "source": "com.appstory.app-main-52:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/display_story_widget.xml",
+        "source": "com.appstory.app-main-52:/layout/display_story_widget.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/activity_signup.xml",
+        "source": "com.appstory.app-main-52:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/activity_welcome.xml",
+        "source": "com.appstory.app-main-52:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/activity_add_story.xml",
+        "source": "com.appstory.app-main-52:/layout/activity_add_story.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/activity_maps.xml",
+        "source": "com.appstory.app-main-52:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/activity_logout.xml",
+        "source": "com.appstory.app-main-52:/layout/activity_logout.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/activity_list_story.xml",
+        "source": "com.appstory.app-main-52:/layout/activity_list_story.xml"
+    },
+    {
+        "merged": "com.appstory.app-mergeDebugResources-49:/layout/activity_login.xml",
+        "source": "com.appstory.app-main-52:/layout/activity_login.xml"
+    }
+]

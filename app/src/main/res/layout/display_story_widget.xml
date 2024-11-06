@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.StoryApp.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.StoryApp.AppWidgetContainer"
+    android:background="@drawable/background_corner">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/image_dicoding"
+        android:contentDescription="@string/welcome_to_dicoding_story" />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:paddingVertical="0dp"
+        android:background="@color/white_80"
+        android:text="@string/see_story"
+        android:textSize="12sp" />
+</RelativeLayout>
